@@ -1,3 +1,4 @@
+```
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -70,7 +71,7 @@ for ratio in ratios:
     acc = r2_score(y_test, y_pred)
     print(f"Test ratio {ratio}: Accuracy = {acc}")
 
-
+```
 
 \![Screenshot 2025-04-17 154317](https://github.com/user-attachments/assets/b2980510-4350-42eb-a7a3-8dc30b0fc72d)
 
